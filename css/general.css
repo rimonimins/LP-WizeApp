@@ -1,0 +1,27 @@
+body {
+    font-family: Heebo-Regular;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+input, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+	outline: none;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+	line-height: 30px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+::-webkit-input-placeholder {color:#000;}
+::-moz-placeholder          {color:#000;}/* Firefox 19+ */
+:-moz-placeholder           {color:#000;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#000;}

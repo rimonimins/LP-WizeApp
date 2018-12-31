@@ -1,0 +1,362 @@
+/* Top section */
+
+.top-section {
+	background: url(../../img/top-section-bg.jpg) right center no-repeat;
+		-webkit-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+	border-bottom: 8px solid #1f81f2;
+	height: 700px;
+	padding: 0;
+}
+
+.top-section h1 {
+	font-family: Heebo-ExtraBold;
+	font-size: 43px;
+	text-align: center;
+	color: #117ef5;
+	line-height: 1.2;
+	margin: 55px 0;
+}
+
+.top-section h1 span {
+	font-family: Heebo-Regular;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.top-section .top-section-right-part {
+	max-width: 650px;
+	width: 100%;
+	margin-right: 4%;
+}
+
+.top-section p {
+	font-size: 14px;
+	color: #534e48;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.top-section button {
+	font-size: 18px;
+	color: #fff;
+	width: 100%;
+	max-width: 425px;
+	height: 55px;
+	background: #1f81f2;
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 34px;
+	display: block;
+	padding: 0 15px;
+	margin: 0 auto 65px;
+	box-shadow: 2.63px 5.393px 17.1px 0.9px rgba(0, 0, 0, 0.23);
+	-webkit-transition: ease .4s;
+	   -moz-transition: ease .4s;
+	    -ms-transition: ease .4s;
+	     -o-transition: ease .4s;
+	        transition: ease .4s;
+}
+
+.top-section button:hover {
+	background: #1e7ae4;
+}
+
+.top-section .video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.top-section .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Second section */
+
+.second-section {
+	text-align: center;
+	padding: 75px 0;
+}
+
+.second-section .row div {
+	margin-bottom: 25px;
+}
+
+.second-section img {
+	max-height: 185px;
+}
+
+.second-section p {
+	font-size: 16px;
+	color: #020202;
+	line-height: 1.4;
+	margin-top: 25px;
+}
+
+.second-section p a {
+	font-size: 12px;
+	color: #1f81f2;
+	text-decoration: none;
+}
+
+.second-section button {
+	font-size: 18px;
+	color: #fff;
+	width: 100%;
+	max-width: 325px;
+	height: 45px;
+	background: #1f81f2;
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 34px;
+	display: block;
+	padding: 0 15px;
+	margin: 35px auto 0;
+	box-shadow: 2.63px 5.393px 17.1px 0.9px rgba(0, 0, 0, 0.23);
+	-webkit-transition: ease .4s;
+	   -moz-transition: ease .4s;
+	    -ms-transition: ease .4s;
+	     -o-transition: ease .4s;
+	        transition: ease .4s;
+}
+
+.second-section button:hover {
+	background: #1e7ae4;
+}
+
+/* Third section */
+
+.third-section {
+	background: #525252;
+	padding: 75px 0 55px;
+}
+
+.third-section .row div {
+	margin-bottom: 25px;
+}
+
+.third-section p {
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.third-section p span {
+	font-size: 48px;
+}
+
+/* Fourth section */
+
+.fourth-section {
+	border-bottom: 8px solid #1f81f2;
+	padding: 75px 0;
+}
+
+.fourth-section .row .row:first-child {
+	margin-bottom: 5px;
+}
+
+.fourth-section .row .row div p {
+	color: #666666;
+	padding: 8px;
+}
+
+.fourth-section .row .row div p .red {
+	color: #cb0707;
+}
+
+.fourth-section .row .row div p .green {
+	color: #0aaf11;
+}
+
+.fourth-section .row .row div p small {
+	font-size: 9px;
+	color: #838282;
+}
+
+.fourth-section .row .row div:first-child {
+	text-align: left;
+}
+
+.fourth-section .row .row div:nth-child(2),
+.fourth-section .row .row div:nth-child(3) {
+	text-align: center;
+}
+
+.fourth-section .row .row:nth-child(even) div:nth-child(2) p,
+.fourth-section .row .row:nth-child(even) div:nth-child(3) p {
+	background: #e6e6e6;
+}
+
+.fourth-section h4 {
+	font-size: 29px;
+	color: #32285d;	
+}
+
+.fourth-section p {
+	font-size: 12px;
+}
+
+.fourth-section button {
+	font-size: 18px;
+	color: #fff;
+	width: 100%;
+	max-width: 206px;
+	height: 45px;
+	background: #53c1ec url(../../img/button-img.png);
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	display: block;
+	padding: 0 15px;
+	margin: 25px auto 0;
+}
+
+/* Slider */
+
+    /* Slider arrows */
+
+.slick-prev, .slick-next {
+    width: 40px;
+    height: 75px;
+}
+
+.slick-prev {
+	left: -35px;
+}
+
+.slick-next {
+	right: -35px;
+}
+
+.slick-prev:before, [dir='rtl'] .slick-prev:before {
+    content: url(../../img/prev-arrow.png);
+}
+
+.slick-next:before, [dir='rtl'] .slick-next:before {
+    content: url(../../img/next-arrow.png);
+}
+
+/* Fifth section */
+
+.fifth-section {
+	text-align: center;
+	padding: 75px 0;
+}
+
+.fifth-section h3 {
+	font-family: Heebo-Medium;
+	font-size: 35px;
+	color: #1f81f2;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.fifth-section-slider {
+    width: -webkit-calc(100% - 80px);
+    width: calc(100% - 80px);
+    margin: 25px auto 35px;
+}
+
+.fifth-section-slider .slick-slide {
+    margin: 0px 30px;
+}
+
+.fifth-section-slider .slider-item {
+    outline: none;
+}
+
+.fifth-section-slider p {
+	font-family: Heebo-Light;
+	font-size: 29px;
+	color: #232323;
+	line-height: 1.2;
+}
+
+.fifth-section-slider p.fifth-section-slider-name {
+	font-family: Heebo-Bold;
+	font-size: 25px;
+	color: #1b1b1b;
+	margin-bottom: 5px;
+}
+
+.fifth-section-slider p.fifth-section-slider-date {
+	font-family: Heeb-Regular;
+	font-size: 25px;
+	color: #a7a7a7;
+	margin-bottom: 35px;
+}
+
+/* Sixth section */
+
+.sixth-section {
+	text-align: center;
+	background: #1f81f2;
+	padding: 75px 0;
+}
+
+.sixth-section h3 {
+	font-family: Heebo-Medium;
+	font-size: 35px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.sixth-section p {
+	font-family: Heebo-Light;
+	font-size: 25px;
+	color: #fff;
+	line-height: 1.2;
+}
+
+/* media */
+
+@media (min-width: 1680px) {
+	.top-section {
+		height: 890px;
+	}
+	.top-section h1 {
+		font-size: 65px;
+		margin: 63px 0;
+	}
+	.top-section .top-section-right-part {
+		max-width: 775px;
+		margin-right: 8%;
+	}
+}
+
+@media (max-width: 1199px) {
+	.top-section {
+		background: #e3e6f5;
+		height: auto;
+	}
+	.top-section .top-section-right-part {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.top-section h1 {
+		font-size: 29px;
+	}
+	.fourth-section h4 {
+		font-size: 23px;
+	}
+	.fifth-section-slider p {
+		font-size: 16px;
+	}
+	.sixth-section p {
+		font-size: 18px;
+	}
+}
